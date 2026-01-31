@@ -27,6 +27,7 @@ class FacturaLinea extends Model
         });
     }
 
+    // Devolver belongTo() es muy importante 
     public function factura()
     {
         return $this->belongsTo(Facturas::class, 'id_factura');
