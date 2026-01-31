@@ -5,11 +5,11 @@ use App\Http\Controllers\FacturasController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LineaFacturaController;
 
-/*
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('hola');
 });
-*/
+
 
 /*
 Route::get('/clientes', function() {
