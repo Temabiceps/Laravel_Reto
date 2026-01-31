@@ -46,3 +46,5 @@ class User extends Authenticatable
         ];
     }
 }
+
+// Comentario para el ejercicio
