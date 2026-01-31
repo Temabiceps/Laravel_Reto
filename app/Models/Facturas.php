@@ -18,6 +18,7 @@ class Facturas extends Model
         'fecha',
     ];
 
+    // Devuelve la lista de facturas
     public function lineas()
     {
         return $this->hasMany(FacturaLinea::class, 'id_factura');
