@@ -7,7 +7,7 @@ use App\Http\Controllers\LineaFacturaController;
 
 
 Route::get('/', function () {
-    return view('hola');
+    return view('hello');
 });
 
 
