@@ -25,3 +25,5 @@ class Facturas extends Model
     }
 
 }
+
+// Comentario de practica RETO 3.3
