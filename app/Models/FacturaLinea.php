@@ -33,3 +33,5 @@ class FacturaLinea extends Model
         return $this->belongsTo(Facturas::class, 'id_factura');
     }
 }
+
+// Comentario de practica RETO 3.3

@@ -11,3 +11,5 @@ class Clientes extends Model
         return $this->hasMany('App\Models\facturas');
     }
 }
+
+// Comentario de practica RETO 3.3
