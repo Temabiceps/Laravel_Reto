@@ -34,7 +34,7 @@ Route::post('/clientes', [ClientesController::class, 'store']);
 Route::patch('/clientes/{id}', [ClientesController::class, 'update']);
 Route::resource('clientes', ClientesController::class)->middleware('auth');
 Route::resource('facturas', FacturasController::class)->middleware('auth');
-Auth::routes(['register' => false, 'reset' => false]);
+Auth::routes(['register' => false, 'reset' => true]);
 
 Route::get('lineas/{id}', [LineaFacturaController::class, 'index'])->name('lineas.index');
 Route::get('lineas/{id_factura}/create', [LineaFacturaController::class, 'create'])->name('lineas.create');
